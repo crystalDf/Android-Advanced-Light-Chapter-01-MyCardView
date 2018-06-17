@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyCardView</string>
+    <string name="corner_radius">控制圆角大小</string>
+    <string name="elevation">控制阴影大小</string>
+    <string name="margin">控制图片间距</string>
+    <string name="image">image</string>
+</resources>
