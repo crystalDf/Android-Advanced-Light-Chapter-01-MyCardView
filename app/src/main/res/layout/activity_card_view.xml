@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".CardViewActivity">
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/card_view"
         android:layout_width="match_parent"
         android:layout_height="250dp"
@@ -24,9 +24,9 @@
             android:background="@drawable/cardview"
             android:scaleType="centerCrop"
             android:contentDescription="@string/image"/>
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraint_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -47,9 +47,9 @@
             app:layout_constraintStart_toEndOf="@+id/seek_bar_1"
             android:text="@string/corner_radius"/>
 
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraint_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -70,9 +70,9 @@
             app:layout_constraintStart_toEndOf="@+id/seek_bar_2"
             android:text="@string/elevation"/>
 
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraint_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -93,6 +93,6 @@
             app:layout_constraintStart_toEndOf="@+id/seek_bar_3"
             android:text="@string/margin"/>
 
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
